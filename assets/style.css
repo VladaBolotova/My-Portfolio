@@ -1,0 +1,63 @@
+a{
+color: white;
+text-decoration: none;
+}
+.header{
+    display: flex;
+    background-color: gray;
+
+
+}
+.hero{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    background-image:url("./images/aaa.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    min-width: 300px;
+    justify-items: end;
+    font-size: 30px;  
+    width: 100%
+    
+    
+}
+.header h1{
+    display: flex;
+    background-color: pink;
+    height: 45px;
+}
+
+.resize {
+    width: 1000px;
+    height: auto;
+}
+
+.resize {
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+
+section {
+    float: right;
+    margin: 0 1.5%;
+    width: 63%;
+  }
+  aside {
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+  }
+ 
+  .verticalLine {
+    height: 40px;
+    border-left: 1px blue;
+    color: blue;
+  }
+
+ 

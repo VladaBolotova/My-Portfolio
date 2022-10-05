@@ -1,0 +1,194 @@
+html{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/IMG_2926.PNG);
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding-left: 5%;
+    padding-right: 200px;
+  
+}
+
+.aaa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 200px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 40px;
+   
+
+  }
+
+.hero{
+    color:blanchedalmond;
+    font-size: 40px;
+    cursor: pointer;
+   
+}
+
+.class{
+    background-image: url(./images/ccc.jpg);
+    width: 100%;
+    height: 100%;
+}
+span{
+    color:pink
+}
+
+nav ul a:hover{
+    color:salmon;
+
+}
+
+.about-me{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.about-me img{
+    height: auto;
+    width: 150px;
+    box-shadow: 50px 0px 50px pink;
+    border-radius: 10% 10% 10%;
+
+}
+
+.text{
+    width: 900px;
+}
+
+.m{
+    width: 1500px;
+    max-width: 100%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  
+
+}
+
+
+.card img, .app2 img, .app3 img, .app4 img{
+    width: 200px;
+    height: 254px;
+    border-radius: 60px 60px 60px;
+    
+
+}
+
+.work{
+    margin-left: 30%;
+    padding-bottom: 5%;
+    text-decoration: overline darkblue;
+    
+}
+
+.box h2{
+    color: gray;
+    text-shadow: 20px 0px 20px gray;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: auto;
+    margin-left: 20%;
+   
+}
+
+.card img:hover, .app2 img:hover, .app3 img:hover, .app4 img:hover{
+    transform: scale(1.5);
+    
+}
+
+.cont{
+    margin-left: 27%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    justify-content: space-evenly;
+    color: aliceblue;
+    position: relative;
+}
+
+.contact{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.contact i{
+    height: 50px;
+    width: 50px;
+    align-items:center;
+    justify-content: center;
+    background: gray;
+    margin-left: 30%;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 50%;
+    border-style: dashed;
+    justify-content: space-evenly;
+    display: inline-flex;
+    margin-top: 1%;
+    
+   
+}
+
+
+
+.finish{
+    margin-left: 43%;
+    color: white;
+}
+
+footer{
+    background-image: url(./images/ccc.jpg);
+    width: 100%;
+    height: 100%;
+}
