@@ -46,7 +46,7 @@ nav{
     margin-left: 200px;
     text-transform: capitalize;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 10%;
    
 
   }
@@ -62,7 +62,10 @@ nav{
     background-image: url(./images/ccc.jpg);
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: center;
 }
+
 span{
     color:pink
 }
@@ -90,7 +93,7 @@ nav ul a:hover{
 }
 
 .m{
-    width: 1500px;
+    width: 877px;
     max-width: 100%;
     margin-top: 1%;
     display: flex;
@@ -167,7 +170,7 @@ nav ul a:hover{
     width: 50px;
     align-items:center;
     justify-content: center;
-    background: gray;
+    background: red;
     margin-left: 30%;
     color:aliceblue;
     text-decoration: none;
@@ -175,7 +178,8 @@ nav ul a:hover{
     border-style: dashed;
     justify-content: space-evenly;
     display: inline-flex;
-    margin-top: 1%;
+    font-size: xx-large;
+   
     
    
 }
@@ -184,11 +188,12 @@ nav ul a:hover{
 
 .finish{
     margin-left: 43%;
-    color: white;
+    color:black;
+    
 }
 
 footer{
     background-image: url(./images/ccc.jpg);
     width: 100%;
-    height: 100%;
+    height: 13vh;
 }
