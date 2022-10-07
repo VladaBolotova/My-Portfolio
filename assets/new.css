@@ -28,9 +28,11 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items:end;
+    align-items:center;
     padding-left: 5%;
-    padding-right: 200px;
+    width: 100%;
+    
+   
   
 }
 
@@ -43,14 +45,15 @@ nav{
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-left: 200px;
     text-transform: capitalize;
     font-weight: bold;
     padding-top: 10%;
    
 
   }
-
+.aaa a{
+    margin-right: 20px;
+}
 .hero{
     color:blanchedalmond;
     font-size: 40px;
@@ -64,6 +67,13 @@ nav{
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width:600px){ 
+    .aaa{
+        display: none;
+    }
+    
 }
 
 span{
@@ -88,12 +98,10 @@ nav ul a:hover{
 
 }
 
-.text{
-    width: 900px;
-}
+
 
 .m{
-    width: 877px;
+    
     max-width: 100%;
     margin-top: 1%;
     display: flex;
@@ -196,4 +204,11 @@ footer{
     background-image: url(./images/ccc.jpg);
     width: 100%;
     height: 13vh;
+}
+
+@media screen and (max-width:600px){ 
+    .aaa{
+        display: none;
+    }
+    
 }
