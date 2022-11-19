@@ -1,4 +1,4 @@
-# challenge-2
+My Portfolio
 Description
 
 This is my Web Potfolio of work which showcase my skills and talents to employesr looking to fill a part-time or full-time position. It highlights my strongest work as well as the thought processes behind it.
