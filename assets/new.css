@@ -1,7 +1,7 @@
 html{
     height: 100vh;
     width: 100%;
-    background-image: url(./images/IMG_2926.PNG);
+    background-image: url(./images/images.jpeg);
     background-size: cover;
     background-position: center;
  
@@ -61,8 +61,16 @@ nav{
    
 }
 
+/* .des{
+    width: 15px;
+  height: 10px;
+    
+} */
+
+
+
 .class{
-    background-image: url(./images/ccc.jpg);
+    background-image: url(./images/images.jpeg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -95,9 +103,27 @@ nav ul a:hover{
     width: 150px;
     box-shadow: 50px 0px 50px pink;
     border-radius: 10% 10% 10%;
+    margin-left: 300px;
 
 }
 
+.text{
+    width: 600px;
+}
+
+.movie-app {
+    width: 600px;
+}
+
+.movie-app h3{
+    font-weight: 100;
+    font-size: medium;
+    color: gray;
+}
+
+.app2{
+    width: 600px;
+}
 
 
 .m{
@@ -106,7 +132,11 @@ nav ul a:hover{
     margin-top: 1%;
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 2%;
+    justify-content: space-between;
+    gap: 1px;
+    margin-right: 100px;
+   
 
 }
 
@@ -114,7 +144,7 @@ nav ul a:hover{
 
 .box{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-evenly;
   
@@ -122,8 +152,8 @@ nav ul a:hover{
 }
 
 
-.card img, .app2 img, .app3 img, .app4 img{
-    width: 200px;
+.card img, .movie img, .app3 img, .app4 img{
+    width: 500px;
     height: 254px;
     border-radius: 60px 60px 60px;
     
@@ -137,19 +167,46 @@ nav ul a:hover{
     
 }
 
-.box h2{
+/* .box h2 h3{
     color: gray;
     text-shadow: 20px 0px 20px gray;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: auto;
     margin-left: 20%;
-   
-}
+  
+} */
 
 .card img:hover, .app2 img:hover, .app3 img:hover, .app4 img:hover{
     transform: scale(1.5);
     
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.a2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .cont{
