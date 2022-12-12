@@ -14,3 +14,6 @@ The portfolio presents with my name, a recent photo and links. Each link corresp
 
 Credits
 N/A
+
+![Getting Started](./assets/images/Screen%20Shot%202022-12-12%20at%201.10.25%20PM.png)
+

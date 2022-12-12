@@ -55,7 +55,7 @@ nav{
     margin-right: 20px;
 }
 .hero{
-    color:blanchedalmond;
+    color:rgb(109, 59, 224);
     font-size: 40px;
     cursor: pointer;
    
@@ -85,11 +85,11 @@ nav{
 }
 
 span{
-    color:pink
+    color:rgb(96, 56, 152);
 }
 
 nav ul a:hover{
-    color:salmon;
+    color:rgb(96, 56, 152);
 
 }
 
@@ -101,7 +101,7 @@ nav ul a:hover{
 .about-me img{
     height: auto;
     width: 150px;
-    box-shadow: 50px 0px 50px pink;
+    /* box-shadow: 50px 0px 50px pink; */
     border-radius: 10% 10% 10%;
     margin-left: 300px;
 
@@ -163,19 +163,11 @@ nav ul a:hover{
 .work{
     margin-left: 30%;
     padding-bottom: 5%;
-    text-decoration: overline darkblue;
+    color:  white;
+    
     
 }
 
-/* .box h2 h3{
-    color: gray;
-    text-shadow: 20px 0px 20px gray;
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: auto;
-    margin-left: 20%;
-  
-} */
 
 .card img:hover, .app2 img:hover, .app3 img:hover, .app4 img:hover{
     transform: scale(1.5);
@@ -191,6 +183,36 @@ nav ul a:hover{
     margin-left: 50px;
 }
 
+.items2 li{
+    color: gray;
+}
+
+.skillss h3{
+    color: rgb(133, 122, 122);
+}
+
+.movie-app h2{
+    color: rgb(133, 122, 122);
+}
+
+.text h2 {
+    color: rgb(133, 122, 122);
+}
+
+.text h5{
+    color: rgb(133, 122, 122);
+}
+
+.text p{
+    color: gray;
+}
+.skills h3{
+    color: rgb(133, 122, 122);
+}
+.items1 li{
+    color: gray;
+}
+
 .card1{
     display: flex;
     justify-content: space-between;
@@ -199,6 +221,13 @@ nav ul a:hover{
     margin-right: 50px;
     margin-left: 50px;
 }
+
+button{
+    background-color: gray;
+    border-radius: 60px 60px 60px;
+}
+
+
 
 .a2{
     display: flex;
@@ -258,7 +287,7 @@ nav ul a:hover{
 }
 
 footer{
-    background-image: url(./images/ccc.jpg);
+    background-image: url(./images/images.jpeg);
     width: 100%;
     height: 13vh;
 }
