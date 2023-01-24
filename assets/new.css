@@ -118,7 +118,7 @@ nav ul a:hover{
 .movie-app h3{
     font-weight: 100;
     font-size: medium;
-    color: gray;
+    color: rgb(202, 197, 197);
 }
 
 .app2{
@@ -184,7 +184,7 @@ nav ul a:hover{
 }
 
 .items2 li{
-    color: gray;
+    color: rgb(202, 197, 197);
 }
 
 .skillss h3{
@@ -223,7 +223,7 @@ nav ul a:hover{
 }
 
 button{
-    background-color: gray;
+    background-color: rgb(229, 194, 233);
     border-radius: 60px 60px 60px;
 }
 
